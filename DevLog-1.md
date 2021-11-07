@@ -21,7 +21,7 @@ The following are images of the Voyant data pulled from an old dataset: one of m
 
 + Currently, I'm using DeepSpeech to transcribe my interview data, Voyant to create text frequency data in a .csv file, and TwoTone to create sonified layers. I've already used DeepSpeech to transcript a bit of my interview data, with some success:
 
-![DeepSpeech]{deepspeech-interview-transcribe.png)
+![DeepSpeech](deepspeech-interview-transcribe.png)
 
 + I'd like to experiment with sonification using Python, but I'm not sure if I'll have enough time to move through that learning curve. I would also like to use Echoes (I'm using Echoes for my MRE project) to turn this soundscape into a sound walk, but I haven't fleshed out exactly how I might do that yet.
 
