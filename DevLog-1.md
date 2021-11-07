@@ -11,7 +11,7 @@
 + Why did I decide to use [the Africville Relocation Report](https://dalspace.library.dal.ca/handle/10222/55960) as one of my main sources of data? Well it's easily reproducible and is still one of the core primary sources of data used in writing any content about Africville and post-war housing developments in Halifax, NS.
 + My second main source of data, the interviews, are also reproducible but require tracking the decisions made when running the transcript through a text-analysis tool (it must be part of the *paradata*). For example, I've removed the verbal pauses that dominated the data (the 'uhm's, ahs, you knows') to highlight the important terms mentioned by participants. 
 
-The following are images of the Voyant data pulled from one of my interviews with the founders of the Africville Genealogy Society.
+The following are images of the Voyant data pulled from an old dataset: one of my interviews with the founders of the Africville Genealogy Society (2018).
 
 ![Voyant](Africville-Voyant-Data.png)
 
@@ -19,7 +19,10 @@ The following are images of the Voyant data pulled from one of my interviews wit
 
 ## Project Tools
 
-+ Currently, I'm using DeepSpeech to transcribe my interview data, Voyant to create text frequency data in a .csv file, and TwoTone to create sonified layers. 
++ Currently, I'm using DeepSpeech to transcribe my interview data, Voyant to create text frequency data in a .csv file, and TwoTone to create sonified layers. I've already used DeepSpeech to transcript a bit of my interview data, with some success:
+
+![DeepSpeech]{deepspeech-interview-transcribe.png)
+
 + I'd like to experiment with sonification using Python, but I'm not sure if I'll have enough time to move through that learning curve. I would also like to use Echoes (I'm using Echoes for my MRE project) to turn this soundscape into a sound walk, but I haven't fleshed out exactly how I might do that yet.
 
 ## Challenges so far
