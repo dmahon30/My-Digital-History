@@ -18,7 +18,7 @@
 
 + Re: PLAN 1: 
 	+ The MIDIscript detailed in [Programming Historian on Sonification](https://programminghistorian.org/en/lessons/sonification) really relies on change over time. The issues with my data was that the information was drawn from the same year, plus the interpretation on workforce data was limited in scope and quantity. I didn't feel comfortable manipulating the time variables, so I had to abandon that dataset. Instead, I'll be experimenting with statscan census data on ethnicity in Canada from the late 19th-century to the mid-20th century. 
-	+ What stood out to me about this data (compiled in the early 1970s) was the conception of ethnicity measured across the years. What sort of conversation can we glean from how ethnicity was categorized, measured, and silenced - how can we sonify [this data] (https://docs.google.com/spreadsheets/d/1PEKXc-f0oEbr5uTKmYaYvoL4BSn8zBORAMbI0Yspqgs/edit?usp=sharing)?
+	+ What stood out to me about this data (compiled in the early 1970s) was the conception of ethnicity measured across the years. What sort of conversation can we glean from how ethnicity was categorized, measured, and silenced - how can we sonify [this data](https://docs.google.com/spreadsheets/d/1PEKXc-f0oEbr5uTKmYaYvoL4BSn8zBORAMbI0Yspqgs/edit?usp=sharing)?
 	+ So I'll try again with the python script using the above data and see what I can come up with!
 
 + Re: PLAN 2:
