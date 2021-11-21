@@ -1,6 +1,5 @@
-# Oral History Sonic Soundcloud: Experimentation
+# DevLog 2: The Struggle to Sonify Transcript Data is Real.
 
-## DevLog 2: The Struggle to Sonify Transcript Data is Real.
 
 ## The Initial Plans (Spoiler: There are 2)
 
@@ -9,7 +8,10 @@
 + Plan number two: The first plan was simply to challenge myself to work with quantitative data to make an argument through sonal interpretation (rather than the usual essay format of historical argumentation). 
 
 	- Plan number two involved 
-	A. Analyzing qualitative data (interview transcripts with former residents) using TF-IDF (via Voyant or R-language)
+	A. Analyzing qualitative data (interview transcripts with former residents) using TF-IDF (via Python or R-language)
+		These are the two R-based TF-IDF resources I'm looking at: 
+			1. [R with Dr. Graham](https://graddh.netlify.app/docs/tutorials/tf-idf/)
+			2. [Python with Melanie Walsh](https://melaniewalsh.github.io/Intro-Cultural-Analytics/05-Text-Analysis/03-TF-IDF-Scikit-Learn.html)
 	B. Creating a visual and audible interpretation of the 25 most frequent/significant terms in the transcript data.
 
 ## Challenges & Change in Plans
@@ -39,14 +41,16 @@
 
 ![](Wordcloud.png)	
 
-
 ### Now, the audio prototype
 
 + I decided I wanted to create an audiofile that reflected the frequency data, which I made using only the 5 most frequent terms.
 + I then pulled samples from my interview where the participants were saying these words to add another dimension to the data.
++ I added these samples as Audacity stereo tracks.
 + I also thought it would be quite powerful to loop these words, and increase the volume for each word depending on their TF. For example, the more often the word appeared in the text, the louder the word would be. The audio was then ordered from the quietest sample to the loudest.
 
-+ This is a very basic prototype, but here is an example of the sonal interpretation:
++ This is a very basic prototype, but [here](https://soundcloud.com/danielle-mahon/5-sample-soundcloud/s-x7TskqvHQ7q?si=daddd1b3c8bd49f9a2cd45d725da822e) is an example of the sonal interpretation
 
-{{<audio src="Transcript-Soundcloud.mp3" >}}
-	
+### Next steps
+
++ Project 1: Work through MIDI with the new data
++ Project 2: Transcribe data, use TF-IDF on transcribed data, add 25 samples in Audacity, loop, possibly add industrial sound samples pulled from freesample.org (sounds that make have been heard by participants growing up, i.e. the train, and the dump trucks) to create a sonal conversation.
