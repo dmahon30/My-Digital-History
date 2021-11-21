@@ -37,7 +37,7 @@
 
 ### Here is the visualized data (the wordcloud)	
 
-![](/images/Wordcloud.png)	
+![](Wordcloud.png)	
 
 
 ### Now, the audio prototype
@@ -48,5 +48,5 @@
 
 + This is a very basic prototype, but here is an example of the sonal interpretation:
 
-{{<audio src="/posts/Transcript-Soundcloud.mp3" >}}
+{{<audio src="Transcript-Soundcloud.mp3" >}}
 	
